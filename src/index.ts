@@ -1,10 +1,8 @@
-console.log('Starting server Node.js with TS')
-console.log('asassasassa')
-
-interface Medics {
-      name: string
-  codMed: number
+interface Medic {
+   name: string
+   codMed: number
 }
 
-const medic: Medics = { name: 'Miguel', codMed: 14 }
+const medic: Medic = { name: 'Miguel', codMed: 1 }
+console.log('Starting server Node.js with TS')
 console.log(medic)
