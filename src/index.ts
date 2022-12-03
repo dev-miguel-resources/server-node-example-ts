@@ -1,8 +1,8 @@
 console.log('Starting server Node.js with TS')
 console.log('asassasassa')
 
-                           interface Medics {
-  name: string
+interface Medics {
+      name: string
   codMed: number
 }
 
